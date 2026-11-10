@@ -1,0 +1,33 @@
+# 环境变量与密钥（绝对不能提交）
+.env
+*.env.local
+*.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 运行时输出
+output/
+result*.jsonl
+samples/result_*.jsonl
+samples/rejected_*.jsonl
+*.log
+
+# Trae skills（不纳入项目仓库）
+.agents/
+
+# 系统文件
+.DS_Store
+Thumbs.db
